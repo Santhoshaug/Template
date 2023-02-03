@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vidyawin application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.zysk.vidyawin.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Vidyawin App Test Cases(failed)">
+    <classes>
+      <class name="com.zysk.vi.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="crmLogoImageTest"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.zysk.vi.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Vidyawin App Test Cases(failed) -->
+</suite> <!-- Failed suite [Vidyawin application Test Automation Test Suite] -->
